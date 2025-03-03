@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="student_style.css">
+</head>
+<body>
+
+    <!-- Background Image -->
+    <div class="background-container">
+        <img src="yy.jpg" alt="Future Tech" class="background-image">
+    </div>
+
+    <!-- Registration Form -->
+    <div class="container">
+        <div class="registration-container">
+            <h2>Student Registration</h2>
+            <form id="studentForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="MobileNumber">Mobile Number:</label>
+                <input type="text" id="MobileNumber" name="MobileNumber" required pattern="[0-9]{10}" title="Enter a valid 10-digit mobile number">
+
+                <label for="course">Select Course:</label>
+                <select id="course" name="course">
+                    <option value="SAP FICO">SAP FICO</option>
+                    <option value="TALLY PRIME">TALLY PRIME</option>
+                    <option value="BUSY">BUSY</option>
+                    <option value="GST">GST</option>
+                    <option value="E-RETURN FILING">E-RETURN FILING</option>
+                    <option value="ADVANCE EXCEL">ADVANCE EXCEL</option>
+                    <option value="LLB">LLB</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.COM">B.COM</option>
+                    <option value="BA LLB">BA LLB</option>
+                    <option value="BA/MA">BA/MA</option>
+                    <option value="BSc">BSc</option>
+                    <option value="M.Sc">M.Sc</option>
+                    <option value="BSW">BSW</option>
+                    <option value="MSW">MSW</option>
+                    <option value="BHM">BHM</option>
+                    <option value="LLM">LLM</option>
+                    <option value="BBA">BBA</option>
+                    <option value="B.TECH">B.TECH</option>
+                    <option value="M.TECH"><M.TECH</option>
+                    <option value="BJMC">BJMC</option>
+                    <option value="B.VOC">B.VOC</B></option>
+                    <option value="DNTT">DNTT</option>
+                    <option value="D.PHARMA">Other</option>
+                    <option value="GNM">GNM</option>
+                    <option value="Diploma Engg">Diploma Engg</option>
+                    <option value="BFS">BFS</option>
+                    <option value="D.MLT">D.MLT</option>
+                    <option value="B.PHARMA">B.PHARMA</option>
+                    <option value="MSW">MSW</option>
+                    <option value="ANM">ANM</option>
+                    <option value="PGDCA">PGDCA</option>
+                    <option value="BPES">BPES</option>
+                    <option value="BOT">BOT</option>
+                    <option value="B.MLT">B.MLT</option>
+                    <option value="AGRICULTURE">AGRICULTURE</option>
+                    <option value="BSW">BSW</option>
+                    <option value="MBA">MBA</option>
+                    <option value="Ph.D">Ph.D</option>
+                    <option value="B.Sc Nursing">B.Sc Nursing</option>
+                    <option value="BA Yoga">BA Yoga</option>
+                    <option value="BPT">BPT</option>
+                    
+                    
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+            
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="studen_script.js" defer></script>
+
+</body>
+</html>
