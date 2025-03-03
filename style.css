@@ -1,0 +1,151 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #e3cf4bba;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+/* Top Header */
+.top-header {
+    background: #470800ca;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffffff;
+    color: #030000;
+    text-align: center;
+}
+
+.news-list {
+    font-weight: bold;
+    color: #ff1900;
+}
+
+.headquote {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Navigation */
+.header-menu {
+    background: #004080;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    top: 3px;
+    left: 1px;
+}
+
+.logo img {
+    width: 76px;
+    height: auto;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.main-menu li {
+    padding: 10px 15px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.main-menu a:hover {
+    color: #ffcc00;
+}
+
+/* Banner */
+.hero-banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Content */
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.width-25 {
+    width: 24%;
+}
+
+.latest-news, .event-list, .notice-board, .online-services {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.heading-sect {
+    background: #37b511a0;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.head-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.latest-news-ul, .upcoming-event-list, .notice-board-list, .services-list {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-news-ul li, .upcoming-event-list li, .notice-board-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.event-date {
+    background: #ff5722;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
